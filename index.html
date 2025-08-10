@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Nome de flores:</h1>
+    <div>
+        <p id="variaveis"> </p>
+        <button onclick="mudarVar1()">Flor Venenosa</button>
+        <button onclick="mudarVar2()">Flor Silvestre</button>
+    </div>
+
+    <script>
+        function mudarVar1() {
+            document.getElementById("variaveis").innerText = "Copo-de-leite!";
+        }
+
+        function mudarVar2() {
+            document.getElementById("variaveis").innerText = "Margarida!";
+        }
+    </script>
+</body>
+</html>
